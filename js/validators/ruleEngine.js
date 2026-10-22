@@ -1,4 +1,3 @@
-import REG001 from './regras/REG001_Senha.js';
 import REG002 from './regras/REG002_DivergenciaGuia.js';
 import REG003 from './regras/REG003_DatasExecucao.js';
 import REG005 from './regras/REG005_CodigoIniciadoPorZero.js';
@@ -9,7 +8,7 @@ import { getElementsByLocalName, getTagVal, findLineNumber } from '../utils/xml.
 import { formatMoneyBR } from '../utils/format.js';
 import { getRegras, avaliarCondicao, LABELS_CONDICAO } from '../regrasPersonalizadas.js';
 
-const regrasGuia = [REG001, REG002, REG008];
+const regrasGuia = [REG002, REG008];
 const regrasProcedimento = [REG003, REG005, REG007];
 
 export function executeRuleEngine(xmlDoc, linesArray) {
