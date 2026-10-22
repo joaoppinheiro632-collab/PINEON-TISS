@@ -1,0 +1,9 @@
+{
+  "name": "pineon-tiss",
+  "private": true,
+  "type": "module",
+  "description": "Validador de lotes TISS — front-end puro, sem build step. Este package.json existe só para habilitar ES Modules e rodar os testes automatizados.",
+  "scripts": {
+    "test": "node --test tests/"
+  }
+}
