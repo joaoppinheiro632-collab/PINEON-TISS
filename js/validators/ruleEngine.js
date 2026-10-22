@@ -1,4 +1,4 @@
-import REG001 from './regras/REG001_Senhas.js';
+import REG001 from './regras/REG001_Senha.js';
 import REG002 from './regras/REG002_DivergenciaGuia.js';
 import REG003 from './regras/REG003_DatasExecucao.js';
 import REG005 from './regras/REG005_CodigoIniciadoPorZero.js';
